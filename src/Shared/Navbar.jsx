@@ -156,7 +156,7 @@ const Navbar = () => {
               </button>
             </Link>
             {user ? (
-              <div className="  flex items-center  justify-end ml-4">
+              <div className="  flex items-center  justify-end ml-4 bg-slate-400">
                 <div className="dropdown dropdown-end">
                   <div
                     tabIndex={0}
