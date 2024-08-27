@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
 export const axiosSecure = axios.create({
-  baseURL: 'https://bistro-boss-server-eta-nine-25.vercel.app',
+  baseURL: import.meta.env.VITE_API_URL,
 });
 const useAxiosSecure = () => {
   return axiosSecure;
